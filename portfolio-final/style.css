@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+body{
+    background-color: black;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    margin-bottom: 0%;
+}
+#navbar{
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+#navbar ul a{
+    font-size: 20px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+#navbar ul a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#home{
+    margin-top: 200px;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 300px;
+}
+#home h1{
+    text-align: center;
+    margin: 0%;
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+#home h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-size: 30px;
+    color: white;
+}
+#home button {
+    background-color: white;
+    color: black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+#home a{
+    text-decoration: none;
+}
+#home button:hover{
+    background-color: black;
+    color: #f1f1f1;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+#about{
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    color: black;
+    margin-bottom: 200px;
+}
+
+#about p{
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#project{
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 200px;
+}
+#project h1{
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+}
+#skills{
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 150px;
+}
+#skills h1{
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+}
+#skills span{
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1.5rem;
+}
+#footer{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 0%;
+    height: 50px;
+    padding-top: 10px;
+}
+#footer h1{
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1.5rem;
+}
+.dot {
+    display: inline-block;
+    width: 16px; 
+    height: 16px;
+    border-radius: 50%; 
+  }
