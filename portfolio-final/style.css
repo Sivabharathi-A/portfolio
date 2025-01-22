@@ -20,30 +20,6 @@ body{
     height: auto;
     margin-bottom: 0%;
 }
-#navbar{
-    position: fixed;
-    display: block;
-    width: 100%;
-    background-color: white;
-    height: 40px;
-    margin-top: 0px;
-    padding-top: 2px;
-    padding-bottom: 20px;
-}
-#navbar ul a{
-    font-size: 20px;
-    float: right;
-    color: black;
-    text-decoration: none;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-right: 5px;
-}
-#navbar ul a:hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
 #home{
     margin-top: 200px;
     color: white;
