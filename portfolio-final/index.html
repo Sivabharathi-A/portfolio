@@ -18,22 +18,27 @@
   <video id="background-video" autoplay loop muted poster="video.mp4">
     <source src="video.mp4" type="video/mp4">
   </video>
+  <div id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#home" style="font-size: 1.5rem; color: black;">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about" style="font-size: 1.5rem; color: black;">About</a>
+          <a class="nav-item nav-link" href="#project" style="font-size: 1.5rem; color: black;">Projects</a>
+          <a class="nav-item nav-link" href="#skills" style="font-size: 1.5rem; color: black;">Skills</a>
+        </div>
+      </div>
+    </nav>
+  </div>
   <div id="home">
     <h1>Hi, I'm SIVA BHARATHI</h1>
     <h2>Computer Science And Engineering Student</h2>
     <a href="cv.jpg"><button>View CV</button></a>
   </div>
-  <div id="navbar">
-    <ul>
-
-      <a href="#skills">SKILLS</a>
-      <a href="#project">PROJECTS</a>
-      <a href="#about">ABOUT</a>
-      <a href="#home">HOME</a>
-    </ul>
-  </div>
-  
-
   <div id="about">
     <div class="px-4 py-5 my-5 text-center">
       <h1 class="display-5 fw-bold text-body-emphasis">About Me</h1>
@@ -109,7 +114,7 @@
     </div>
   </div>
   <div id="skills">
-    <div class="container px-4 py-5 text-center" id="icon-grid">
+    <div class="container px-4 py-5 text-center w-50" id="icon-grid">
       <h1 class="display-5 fw-bold text-body-emphasis">Skills</h1>
       <div class="h-lg-100 card" style="margin-top: 2%;">
         <div class="d-flex align-items-center card-body">
@@ -147,32 +152,36 @@
           </div>
         </div>
       </div>
-    
-        
         <div class="row" style="margin-top: 2%;">
           <div class="col-md-12">
-            <div class="progress mb-4" style="height: 10%;">
-              <div class="progress-bar bg-secondary text-bold" role="progressbar" style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Java</div>
-            </div>
-            <div class="progress mb-4" style="height: 10%;">
-              <div class="progress-bar bg-info text-bold" role="progressbar" style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">C</div>
-            </div>
-            <div class="progress mb-4" style="height: 10%;">
-              <div class="progress-bar bg-success text-bold" role="progressbar" style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">HTML</div>
-            </div>
-    
-            <div class="progress mb-4" style="height: 10%;">
-              <div class="progress-bar bg-danger text-bold" role="progressbar" style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 70%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">CSS</div>
-            </div>
-            <div class="progress mb-4" style="height: 10%;">
-              <div class="progress-bar bg-warning text-bold" role="progressbar" style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">SQL</div>
-            </div>
-            <div class="progress mb-4" style="height: 10%;">
-              <div class="progress-bar bg-primary text-bold" role="progressbar" style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">WordPress</div>
-            </div>
+            <div class="progress mb-4 rounded-4" style="height: 10%;">
+            <div class="progress-bar bg-info text-bold rounded-4" role="progressbar"
+              style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 90%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">C</div>
           </div>
-        </div>
-        
+          <div class="progress mb-4 rounded-4" style="height: 10%;">
+            <div class="progress-bar bg-success text-bold rounded-4" role="progressbar"
+              style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 75%;" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100">HTML</div>
+          </div>
+
+          <div class="progress mb-4 rounded-4" style="height: 10%;">
+            <div class="progress-bar bg-danger text-bold rounded-4" role="progressbar"
+              style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 70%;" aria-valuenow="85"
+              aria-valuemin="0" aria-valuemax="100">CSS</div>
+          </div>
+          <div class="progress mb-4 rounded-4" style="height: 10%;">
+            <div class="progress-bar bg-warning text-bold rounded-4" role="progressbar"
+              style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 70%;" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100">SQL</div>
+          </div>
+          <div class="progress mb-4 rounded-4" style="height: 10%;">
+            <div class="progress-bar bg-primary text-bold rounded-4" role="progressbar"
+              style="height: 2rem; font-size: 1.5rem; padding: 0.5rem 1rem; width: 85%;" aria-valuenow="85"
+              aria-valuemin="0" aria-valuemax="100">WordPress</div>
+          </div>
+          </div>
+        </div>  
     </div>
   </div>
   <div id="footer">
