@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Student Portfolio | Dr. Mahalingam College</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SB</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <!-- <li><a href="#education" class="nav-link">Education</a></li> -->
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title fade-in">
+                    Hi, I'm <span class="highlight">Siva Bharathi</span>
+                </h1>
+                <p class="hero-subtitle fade-in-delay">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </p>
+                <p class="hero-description fade-in-delay-2">
+                    Computer Science Engineering Student at Dr. Mahalingam College of Engineering and Technology
+                </p>
+                <div class="hero-buttons fade-in-delay-3">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                    I'm a Computer Science And Engineering undergrad at Dr Mcet. I'm driven to build a strong foundation in CS principles, and problem-solving, fueled by a passion for learning and exploring latest tech trends. Open to connecting with mentors, collaborators, and anyone else excited about tech!
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <h4>🎓 Education</h4>
+                            <p>B.E Computer Science Engineering<br>Dr. Mahalingam College of Engineering and Technology</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>📅 Graduation</h4>
+                            <p>Expected: 2027</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>💡 Interests</h4>
+                            <p>Web Development, java, Software Engineering, C programming</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>🌟 Goal</h4>
+                            <p>To contribute to cutting-edge technology and make a positive impact through innovative software solutions</p>
+                        </div>
+                    </div>
+                    <div class="about-button">
+                    <a href="resume.jpg" class="btn btn-primary">View Resume</a>
+                    </div>
+                </div>
+                <!-- <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="20">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Technologies Learned</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Hours of Coding</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <!-- <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C programming</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="tech-stack">
+                        <div class="tech-item">Java</div>
+                        <div class="tech-item">C Programming</div>
+                        <div class="tech-item">Python</div>
+                        <div class="tech-item">HTML</div>
+                        <div class="tech-item">CSS</div>
+                        <div class="tech-item">JavaScript</div>
+                        <div class="tech-item">SQL</div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="tech-stack">
+                        <div class="tech-item">Bootstrap</div>
+                        <div class="tech-item">MongoDB</div>
+                        <div class="tech-item">GitHub</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="yebsys.png">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://yebsys.com/" class="project-link">View</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Yebsys</h3>
+                        <p>Developed the website www.yebsys.com using WordPress, incorporating dynamic features, responsive design and
+            user-friendly navigation to effectively showcase innovative business solutions and services.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="creatifusion.jpg">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://creatifusionstudios.com/" class="project-link">View</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Creatifusion Studios</h3>
+                        <p>Created a professional website for a digital media studio using WordPress. Focused on responsive design,
+            responsive layouts, optimize performance, dynamic features and SEO optimization to increase visibility. </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+              <div class="project-card">
+                    <div class="project-image">
+                        <img src="wolfarm.png">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="http://wolfarmgroup.com" class="project-link">View</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Wolform Group</h3>
+                        <p>Developed Wolform Group website using WordPress, customizing themes and integrating plugins for SEO,
+            analytics, and contact forms, incorporating responsive layouts, optimize performance, and create a
+            user-friendly site for showcasing multiple services.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="fc.png">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">View</a>
+                                <a href="https://github.com/Sivabharathi-A/Genbrainics-Alpha" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Farmer-Consumer Order Management System</h3>
+                        <p>A full-stack web application that bridges the gap between farmers and consumers, allowing farmers to manage orders and receive feedback while consumers can place orders and track delivery status. This system enhances local trade, transparency, and digital interaction between food producers and end-users.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Express JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>B.E Computer Science Engineering</h3>
+                        <h4>Dr. Mahalingam College of Engineering and Technology</h4>
+                        <p class="timeline-date">2023 - 2027 (Expected)</p>
+                        <p>Currently pursuing Bachelor of Engineering in Computer Science. Focusing on software development, data structures, algorithms, and emerging technologies.</p>
+                        <div class="achievements">
+                            <span class="achievement">CGPA: 9.4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Keren Public School</h3>
+                        <h4>Madurai</h4>
+                        <p class="timeline-date">2021 - 2023</p>
+                        <p>Completed higher secondary education with focus on science stream. Developed strong analytical and problem-solving skills.</p>
+                        <div class="achievements">
+                            <span class="achievement">Class 12, AISSCE: 91%</span>
+                            <span class="achievement">Class 10, AISSCE: 93%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <!-- <h2 class="section-title">Get In Touch</h2> -->
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Say Hello!</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/Sivabharathi-A" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/sivabharathia/" class="social-link">LinkedIn</a>
+                        <a href="resume.jpg" class="btn btn-primary">View Resume</a>
+                    </div>
+                    
+                </div>
+                <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>sivabharathi565@gmail.com</p>
+                            </div>
+                        </div>
+                        <!-- <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 12345 67890</p>
+                            </div>
+                        </div> -->
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p  class="pb-2 border-bottom">Madurai, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <!-- <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            
+            <p>&copy; Designed By Siva Bharathi</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
