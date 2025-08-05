@@ -446,6 +446,9 @@ section {
 } */
 
 /* Skills Section */
+.skills{
+    background: var(--dark-surface);
+}
 .skills-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -518,7 +521,7 @@ section {
 
 /* Projects Section */
 .projects {
-    background: var(--dark-surface);
+    background: rgba(15, 23, 42, 0.98);
 }
 
 .projects-grid {
@@ -616,7 +619,7 @@ section {
 }
 
 /* Education Section */
-/*
+
 .timeline {
     max-width: 800px;
     margin: 0 auto;
@@ -703,11 +706,11 @@ section {
     border-radius: 12px;
     font-size: 0.8rem;
     font-weight: 500;
-} */
+} 
 
 /* Contact Section */
 .contact {
-     background: rgba(15, 23, 42, 0.95);
+     background: var(--dark-surface);
 }
 
 .contact-content {
